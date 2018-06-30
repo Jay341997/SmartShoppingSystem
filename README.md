@@ -1,6 +1,6 @@
-SMART SHOPPING SYSTEM
+# SMART SHOPPING SYSTEM
 
-How it works ?
+## How it works ?
 
 The aim of this project is to develop a smart shopping cart using arduino and mobile application for smart shopping. In this smart shopping cart, each cart have their mobile phone as barcode scanner and products have barcode on it. This shopping cart is locked. And it opens when user scans any product by mobile phone placed above cart, then cart will open for a while to put that product into the cart. To remove any product we will have option of checkbox again that product in bill, so customer will tick all products he wanted to remove and then he will go to security guard near them, now security guard will enter password to the mobile phone and all items which were ticked were removed from bill and guard will take out that ticked items. Product will be added or removed automatically from bill which is going to be displayed on customer’s mobile phone. Bill will be generated on mobile application. And after finishing shopping user can pay the bill online or by cash at counter.
 Initially we know weight of shopping cart. At the end we will check the
