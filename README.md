@@ -16,8 +16,10 @@ cross check it with mobile bill.
 * FSR Sensor
 * Mobile phone application 
 * Design of Working Model…
-* Circuit Diagram:
- 
+
+### Circuit Diagram:
+
+
 
 1.) Bluetooth HC-05:
 	This shopping cart have arduino, HC-05 bluetooth module and 2 servo motors on it. Initially, customer have to connect his mobile app with bluetooth module on cart using bluetooth connection. We configure bluetooth module as slave and set password 1234 on it. To configure bluetooth module we need to enter in AT command mode using circuit and code given below.
