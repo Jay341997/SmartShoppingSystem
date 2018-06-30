@@ -2,7 +2,7 @@
 
 ### How it works ?
 
-The aim of this project is to develop a smart shopping cart using arduino and mobile application for smart shopping. In this smart shopping cart, each cart have their mobile phone as barcode scanner and products have barcode on it. This shopping cart is locked. And it opens when user scans any product by mobile phone placed above cart, then cart will open for a while to put that product into the cart. To remove any product we will have option of checkbox again that product in bill, so customer will tick all products he wanted to remove and then he will go to security guard near them, now security guard will enter password to the mobile phone and all items which were ticked were removed from bill and guard will take out that ticked items. Product will be added or removed automatically from bill which is going to be displayed on customer’s mobile phone. Bill will be generated on mobile application. And after finishing shopping user can pay the bill online or by cash at counter.
+The aim of this project is to develop a smart shopping cart using arduino and mobile application for smart shopping. In this smart shopping cart, each cart have their mobile phone as barcode scanner and products have barcode on it. This shopping cart is locked. And it opens when user scans any product by mobile phone placed above cart, then cart will open for a while to put that product into the cart. To remove any product we will have option of checkbox again that product in bill, so customer will tick all products he wanted to remove and then he will go to security guard near them, now security guard will enter password to the mobile phone and all items which were ticked were removed from bill and guard will take out that ticked items. Product will be added or removed automatically from bill which is going to be displayed on customerâ€™s mobile phone. Bill will be generated on mobile application. And after finishing shopping user can pay the bill online or by cash at counter.
 >>>>>>> 1bbb97ed778f36bd733de1bb3ad4df2d24075d33
 Initially we know weight of shopping cart. At the end we will check the
 
@@ -34,7 +34,7 @@ FSR Sensor
 * BreadBoard
 * FSR Sensor
 * Mobile phone application 
-* Design of Working Model…
+* Design of Working Modelâ€¦
 
 ### Circuit Diagram:
 
@@ -43,11 +43,11 @@ FSR Sensor
 
 Mobile phone application
 
-**Design of Working Model�**
+**Design of Working Model…**
 
 **Circuit Diagram:**
 
-![](media/79f38247e0e67c7d030f4030c68761cf.png)
+![](https://raw.githubusercontent.com/Jay341997/SmartShoppingSystem/master/images/Cuircuit.PNG)
 
 **1.) Bluetooth HC-05:**
 
@@ -68,7 +68,7 @@ In smart shopping cart we used two servo motors for two doors.
 First door is above the cart. This door is also equipped with FSR sensor to
 detect whether there is any product is on that or not. When customer put any
 product on that horizontal door, FSR sensor will give readings and when customer
-scan that product�s barcode from scanner it will send signal to arduino to open
+scan that product’s barcode from scanner it will send signal to arduino to open
 that door and put that product inside cart. This door opening and closing is too
 fast so that there is no chance for cheating.
 
@@ -96,7 +96,7 @@ for successful scan it will drop that product into cart.
 =======
 2.)  Servo Motors:
 In smart shopping cart we used two servo motors for two doors. 
-	First door is above the cart. This door is also equipped with FSR sensor to detect whether there is any product is on that or not. When customer put any product on that horizontal door, FSR sensor will give readings and when customer scan that product’s barcode from scanner it will send signal to arduino to open that door and put that product inside cart. This door opening and closing is too fast so that there is no chance for cheating.
+	First door is above the cart. This door is also equipped with FSR sensor to detect whether there is any product is on that or not. When customer put any product on that horizontal door, FSR sensor will give readings and when customer scan that productâ€™s barcode from scanner it will send signal to arduino to open that door and put that product inside cart. This door opening and closing is too fast so that there is no chance for cheating.
 	Second door is vertically situated on the side of cart. This door will open when customer wants to remove something from cart that he does not want, so customer click on remove button on mobile application, it will ask password on next step. Security guard have that password. Now security guard enters password second door will open and guard will take out things that customer want to remove.
 	When customer pays his bill second door will automatically open on the trigger of mobile application connected via bluetooth. And customer will take out everything from cart.
  
@@ -118,15 +118,15 @@ with smart cart using bluetooth connection.
 
 <<<<<<< HEAD
 When Customer will connect his mobile phone with smart cart via bluetooth he
-will enter the main billing page where there are 2 buttons available �REMOVE�
-and �BUY�. This page will show all the products that customer put inside the
+will enter the main billing page where there are 2 buttons available “REMOVE”
+and “BUY”. This page will show all the products that customer put inside the
 smart cart. It will show total amount and total weight at bottom.
 =======
-	When Customer will connect his mobile phone with smart cart via bluetooth he will enter the main billing page where there are 2 buttons available “REMOVE” and “BUY”. This page will show all the products that customer put inside the smart cart. It will show total amount and total weight at bottom.
-	At the end when customer clicks on “BUY” button in payment area, one of the guard will check the weight of cart and cross check it with mobile phone bill. Then customer will pay the bill using online methods and door will open to take out products from that cart.
+	When Customer will connect his mobile phone with smart cart via bluetooth he will enter the main billing page where there are 2 buttons available â€œREMOVEâ€ and â€œBUYâ€. This page will show all the products that customer put inside the smart cart. It will show total amount and total weight at bottom.
+	At the end when customer clicks on â€œBUYâ€ button in payment area, one of the guard will check the weight of cart and cross check it with mobile phone bill. Then customer will pay the bill using online methods and door will open to take out products from that cart.
 >>>>>>> 1bbb97ed778f36bd733de1bb3ad4df2d24075d33
 
-At the end when customer clicks on �BUY� button in payment area, one of the
+At the end when customer clicks on “BUY” button in payment area, one of the
 guard will check the weight of cart and cross check it with mobile phone bill.
 Then customer will pay the bill using online methods and door will open to take
 out products from that cart.
@@ -146,12 +146,12 @@ password and that products will be deducted from the bill.
 <<<<<<< HEAD
 -   Customer can pay money by online payment methods like paytm, netbanking,
     debit card, credit card etc without waiting on counters. Customer can also
-    pay by cash on counter by showing bill that was created in customer�s mobile
+    pay by cash on counter by showing bill that was created in customer’s mobile
     app.
 =======
 Problem Solved:
 ?	Customer do not need to wait in long queues of cash counter.
-?	Customer can pay money by online payment methods like paytm, netbanking, debit card, credit card etc without waiting on counters. Customer can also pay by cash on counter by showing bill that was created in customer’s mobile app.
+?	Customer can pay money by online payment methods like paytm, netbanking, debit card, credit card etc without waiting on counters. Customer can also pay by cash on counter by showing bill that was created in customerâ€™s mobile app.
 ?	Customer is able to check availability of the products that he wants without going to shopping center with the smart mobile application.
 ?	This system saves lots of time of customers.
 >>>>>>> 1bbb97ed778f36bd733de1bb3ad4df2d24075d33
