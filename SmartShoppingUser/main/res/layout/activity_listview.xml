@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_weight="0"
+        android:buttonTint="@color/Black"
+        android:textColor="@color/Black"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:textColor="@color/Black"
+        android:buttonTint="@color/Black"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="TextView"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="10dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:textColor="@color/Black"
+        android:text="20"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="20dp"
+        android:layout_height="52dp"
+        android:layout_weight="1.4"
+        android:textColor="@color/Black"
+        android:baselineAligned="false"
+        android:text="1000"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textAlignment="center" />
+</LinearLayout>
